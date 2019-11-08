@@ -277,8 +277,9 @@ footer {
 }
 @media (max-width: 500px) {
   .walk-text .btn {
-    width: 100%;
+    width: 109%;
     padding: 10%;
+    border-radius: 3.4%;
   }
 }
 .walk-img {
@@ -293,4 +294,9 @@ footer {
 .walk-img img {
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .walk-img img {
+    width: 100%;
+  }
 }
