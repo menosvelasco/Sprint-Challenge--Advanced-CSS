@@ -1,6 +1,7 @@
 // Home Content
 .intro .sky {
   max-width: 100%;
+  border-radius: 3%;
 }
 .space-images {
   display: flex;
@@ -28,7 +29,7 @@
 }
 
 .visit-planets {
-  padding: 15px;
+  padding: 5%;
 
   h3 {
     margin-top: 11px;
@@ -40,7 +41,7 @@
 }
 
 .walk {
-  margin-top: 60px;
+  margin-top: 3.5%;
   border-top: 1px solid @main-border-color;
   padding: 50px 60px;
   display: flex;
@@ -48,13 +49,17 @@
 
   @media @phone {
     flex-direction: column-reverse;
+    width: 100%;
+    padding: 7% 6% 5% 0;
+    margin-top: 0;
   }
 }
 
 .walk-text {
-  width: 50%;
+  width: 100%;
   @media @phone {
     width: 100%;
+    padding: 4%;
   }
 
   h3 {
@@ -67,6 +72,12 @@
 
   .btn {
     .custom-btn(@header-font-color, @main-border-color);
+
+    @media @phone {
+      width: 109%;
+      padding: 10%;
+      border-radius: 3.4%;
+    }
   }
 }
 
@@ -78,9 +89,12 @@
   }
 
   img {
-    width: 100%;
     height: auto;
     border-radius: 10px;
+
+    @media @phone {
+      width: 100%;
+    }
   }
 }
 
